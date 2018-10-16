@@ -14,5 +14,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
   s.add_dependency "chef", "~> 12.11"
+  s.add_dependency "colorize", "~> 0.7.7"
   s.add_development_dependency "colorize", "~> 0.7.7"
+  s.add_development_dependency "chef", "~> 12.11"
 end
